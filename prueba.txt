@@ -1,0 +1,11 @@
+1- Clonar repositorio
+2- git checkout -b "nombre-rama"
+3- git add .
+4- git commit -m "...."
+5- Desde github, crear "New pull request"
+6- rama base -> main, rama compare-> la mía
+
+DESPUÉS DE QUE SE HAYAN FUSIONADO -->
+
+7- git branch -d "nombre-rama" (elimina localmente)
+8- git push origin --delete "nombre-rama" (elimina de github)
